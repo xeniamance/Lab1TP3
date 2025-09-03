@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ConversorTemperatura">
+  <ClassDiagramComponents>
+    <Class name="ConversorTemperatura" package="ej2.view" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="btnConvertir" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnGroup" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="escritorio" type="javax.swing.JDesktopPane" visibility="private"/>
+        <Field name="labelIngreseTemp" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="labelTitulo" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="panelPrincipal" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="rbCe" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="rbFa" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="rbKe" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="rbRa" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="tfGrados" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="btnConvertirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

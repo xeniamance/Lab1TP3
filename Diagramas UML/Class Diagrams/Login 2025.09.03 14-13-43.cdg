@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Login">
+  <ClassDiagramComponents>
+    <Class name="Login" package="ej1.view" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="btnOcultar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnRegistrar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnVer" type="javax.swing.JButton" visibility="private"/>
+        <Field name="escritorio" type="javax.swing.JDesktopPane" visibility="private"/>
+        <Field name="labelCredenciales" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="labelLogin" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="labelPassword" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="labelUser" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="panelPrincipal" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="panelTitulo" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="panelVerOcultar" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="pfPassword" type="javax.swing.JPasswordField" visibility="private"/>
+        <Field name="tfUsuario" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="btnRegistrarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnOcultarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnVerActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
